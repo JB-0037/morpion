@@ -11,7 +11,7 @@ function displayGrid(grid) {
     for (let y = 0; y < grid.length; y++) {
         for (let x = 0; x < grid[y].length; x++) {
             result += (x !== grid[y].length - 1)
-                ? grid[y][x] + " | "
+                ? grid[y][y] + " | "
                 : grid[y][x] + "\n";
         }
     }
